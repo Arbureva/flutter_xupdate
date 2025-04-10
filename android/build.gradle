@@ -23,7 +23,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 31
+    namespace 'com.xuexiang.flutter_xupdate'  // 根据插件的包名修改
+    compileSdkVersion 33
+    // compileSdkVersion 31
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
